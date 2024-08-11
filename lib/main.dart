@@ -13,7 +13,7 @@ class BusinessCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        backgroundColor: Color(0xFF26435f),
+        backgroundColor: Color(0xFFFF),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -46,7 +46,6 @@ class BusinessCard extends StatelessWidget {
             ),
             Card(
               margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              
               child: ListTile(
                 leading: Icon(Icons.phone, size: 32, color: Color(0xFF26435f)),
                 title: Text(
@@ -57,7 +56,6 @@ class BusinessCard extends StatelessWidget {
             ),
             Card(
               margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              
               child: ListTile(
                 leading: Icon(Icons.mail, size: 32, color: Color(0xFF26435f)),
                 title: Text(
