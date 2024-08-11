@@ -13,7 +13,7 @@ class BusinessCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        backgroundColor: Color(0xFFFF),
+        backgroundColor: Color(0xFF26435f),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
